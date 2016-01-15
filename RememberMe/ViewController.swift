@@ -25,8 +25,6 @@ class ViewController: UIViewController {
     
 }
 
-
-    
     @IBOutlet weak var myField: UITextField!
     
     @IBOutlet weak var myLabel: UILabel!
@@ -38,11 +36,6 @@ class ViewController: UIViewController {
         if let name = myField.text {
          
             myLabel.text = "Hi \(name)"
-        
-            
-            
-            
-
         
         }
     
